@@ -6,7 +6,7 @@ import {Route ,IndexRoute} from 'react-router';
 
 export default (
 	<Route path="/" component={Main}>
-		 <Route path="profile/:username" component={Profile} x="asadas"/>
 		<IndexRoute component={Home} />
+		 <Route path="profile/:username" component={Profile} x="asadas"/>
 	</Route>
 )
